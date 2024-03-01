@@ -22,6 +22,7 @@ export const styles = StyleSheet.create({
   // Corpo
   body: {
     flex: 1,
+    backgroundColor: 'red',
   },
 
   textBody: {
@@ -34,7 +35,6 @@ export const styles = StyleSheet.create({
     resizeMode: 'cover',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'orange'
   },
 
   image2: {
