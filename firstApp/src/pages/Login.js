@@ -18,20 +18,23 @@ export default function Login() {
 
   return (
     <View style={styles.body}>
+
       {/* Imagem de fundo */}
-      <LoginImageBackground />
-      
-        {/* Imagem de fundo */}
-        <LoginImage />
+      <LoginImageBackground>
 
-        {/* Texto que fica sobre as caixas de texto */}
-        <LoginText />
+          {/* Imagem de fundo */}
+          <LoginImage />
 
-        {/* Caixa de texto: Usuário */}
-        <LoginInput />
+          {/* Texto que fica sobre as caixas de texto */}
+          <LoginText />
 
-        {/* Botão: Entrar */}
-        <LoginButton />
+          {/* Caixa de texto: Usuário */}
+          <LoginInput />
+
+          {/* Botão: Entrar */}
+          <LoginButton />
+
+      </LoginImageBackground>
 
     </View>
   );

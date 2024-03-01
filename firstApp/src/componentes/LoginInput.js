@@ -3,7 +3,7 @@ import { styles } from "../styles/StyleSheet";
 
 export default function LoginInput() {
   return (
-    <View>
+    <>
       {/* Caixa de texto do email */}
       <TextInput
         style={styles.inputName}
@@ -20,6 +20,6 @@ export default function LoginInput() {
         secureTextEntry={true}
         placeholderTextColor="black"
       />
-    </View>
+    </>
   );
 }

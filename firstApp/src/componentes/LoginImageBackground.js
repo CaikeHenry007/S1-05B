@@ -1,13 +1,16 @@
-import { ImageBackground, View } from "react-native";
+import { ImageBackground } from "react-native";
 import { styles } from "../styles/StyleSheet";
 
-export default function LoginImageBackground() {
+const LoginImageBackground = ({ children }) => {
+  
   return (
-    <View style={styles.footer}>
       <ImageBackground
         source={require("../assets/images/imagem_fundo.png")}
         style={styles.image}
-      ></ImageBackground>
-    </View>
+      >
+       { children }
+      </ImageBackground>
   );
 }
+
+export default LoginImageBackground;

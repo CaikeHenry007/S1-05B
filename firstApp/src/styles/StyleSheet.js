@@ -22,10 +22,6 @@ export const styles = StyleSheet.create({
   // Corpo
   body: {
     flex: 1,
-    width: "100%",
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "red",
   },
 
   textBody: {
@@ -34,10 +30,11 @@ export const styles = StyleSheet.create({
   },
 
   image: {
-    width: "100%",
-    height: "100%",
-    justifyContent: "center",
-    alignItems: "center",
+    flex: 1,
+    resizeMode: 'cover',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'orange'
   },
 
   image2: {
@@ -51,12 +48,12 @@ export const styles = StyleSheet.create({
     padding: 15,
     fontSize: 20,
     backgroundColor: "white",
-    width: "50%",
+    width: "80%",
   },
 
   Button: {
     backgroundColor: "black",
-    width: "50%",
+    width: "80%",
   },
 
   // Rodapé
